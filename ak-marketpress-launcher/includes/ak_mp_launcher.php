@@ -219,8 +219,9 @@ function htaccess_admin_notice() {
     ?>
     <div class="error">
         <p> Please give writeable permission on  ".htaccess" file located at your site root.<br>
+			Then After that browse front site. to set auto htaccess setting. Else 
 			<a href="http://codex.wordpress.org/Using_Permalinks" target="_blank">Read more...</a>
-			You must enable <a href="' . esc_url( admin_url( 'options-permalink.php' ) ) . '">Pretty Permalinks</a> to use MarketPress
+			
         </p>
     </div>
     <?php
